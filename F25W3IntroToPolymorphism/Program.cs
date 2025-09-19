@@ -14,13 +14,13 @@
 
 
 
-            //BaseClass objBase = new BaseClass();
-            //objBase.Show();
+            BaseClass objBase = new BaseClass();
+            objBase.Show();
 
             //DerivedClass objDerived = new DerivedClass();
             //objDerived.Show();
 
-            BaseClass objBase = new DerivedClass();
+            objBase = new DerivedClass();
             objBase.Show();
 
             //DerivedClass objDerived = new BaseClass();

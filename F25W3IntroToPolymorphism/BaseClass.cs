@@ -8,7 +8,7 @@ namespace F25W3IntroToPolymorphism
 {
     public class BaseClass
     {
-        public void Show()
+        public virtual void Show()
         {
             Console.WriteLine("Base class Show method");
         }
@@ -16,7 +16,7 @@ namespace F25W3IntroToPolymorphism
 
     public class  DerivedClass : BaseClass
     {
-        public new void Show()
+        public override void Show()
         {
             Console.WriteLine("Derived class Show method");
         }
