@@ -4,19 +4,32 @@
     {
         static void Main(string[] args)
         {
-            Add(2, 3);
+            //Add(2, 3);
 
-            int[] arr = { 1, 2, 3 };
-            //PrintArray(arr);
-            //PrintArray(2, 3, 4, 5, 6, 6, 5, 43);
+            //int[] arr = { 1, 2, 3 };
+            ////PrintArray(arr);
+            ////PrintArray(2, 3, 4, 5, 6, 6, 5, 43);
 
-            PrintArray(3, 3, 4, 45, 4, 3);
+            //PrintArray(3, 3, 4, 45, 4, 3);
+
+
+
+            //BaseClass objBase = new BaseClass();
+            //objBase.Show();
+
+            //DerivedClass objDerived = new DerivedClass();
+            //objDerived.Show();
+
+            BaseClass objBase = new DerivedClass();
+            objBase.Show();
+
+            //DerivedClass objDerived = new BaseClass();
         }
 
-        static void PrintArray(int[] n)
-        {
+        //static void PrintArray(int[] n)
+        //{
 
-        }
+        //}
 
         static void PrintArray(params int[] array)
         {
